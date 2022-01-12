@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033FD2D6D2FEB57EFFFEF9F4 /* Pods_WKWebViewApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF74A71BD5E08F7F887F6FA /* Pods_WKWebViewApp.framework */; };
 		912A70F1278E660F00DAC02C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912A70F0278E660F00DAC02C /* AppDelegate.swift */; };
 		912A70F3278E660F00DAC02C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912A70F2278E660F00DAC02C /* SceneDelegate.swift */; };
-		912A70F5278E660F00DAC02C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912A70F4278E660F00DAC02C /* ViewController.swift */; };
-		912A70F8278E660F00DAC02C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912A70F6278E660F00DAC02C /* Main.storyboard */; };
+		912A70F5278E660F00DAC02C /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912A70F4278E660F00DAC02C /* WKWebViewController.swift */; };
 		912A70FA278E661100DAC02C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912A70F9278E661100DAC02C /* Assets.xcassets */; };
 		912A70FD278E661100DAC02C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912A70FB278E661100DAC02C /* LaunchScreen.storyboard */; };
+		912A7107278E68E200DAC02C /* WKWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 912A7106278E68E200DAC02C /* WKWebViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21DBAD5AF0521606D6B16046 /* Pods-WKWebViewApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKWebViewApp.debug.xcconfig"; path = "Target Support Files/Pods-WKWebViewApp/Pods-WKWebViewApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2DF74A71BD5E08F7F887F6FA /* Pods_WKWebViewApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKWebViewApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D4E86BD24EFB4E8080819D /* Pods-WKWebViewApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKWebViewApp.release.xcconfig"; path = "Target Support Files/Pods-WKWebViewApp/Pods-WKWebViewApp.release.xcconfig"; sourceTree = "<group>"; };
 		912A70ED278E660F00DAC02C /* WKWebViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		912A70F0278E660F00DAC02C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		912A70F2278E660F00DAC02C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		912A70F4278E660F00DAC02C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		912A70F7278E660F00DAC02C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		912A70F4278E660F00DAC02C /* WKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
 		912A70F9278E661100DAC02C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		912A70FC278E661100DAC02C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		912A70FE278E661100DAC02C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912A7106278E68E200DAC02C /* WKWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WKWebViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033FD2D6D2FEB57EFFFEF9F4 /* Pods_WKWebViewApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FBAA810303ACCD3AC0711E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DF74A71BD5E08F7F887F6FA /* Pods_WKWebViewApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B16235A0E699EB9FE0005C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21DBAD5AF0521606D6B16046 /* Pods-WKWebViewApp.debug.xcconfig */,
+				79D4E86BD24EFB4E8080819D /* Pods-WKWebViewApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		912A70E4278E660F00DAC02C = {
 			isa = PBXGroup;
 			children = (
 				912A70EF278E660F00DAC02C /* WKWebViewApp */,
 				912A70EE278E660F00DAC02C /* Products */,
+				6B16235A0E699EB9FE0005C9 /* Pods */,
+				0FBAA810303ACCD3AC0711E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +83,8 @@
 			children = (
 				912A70F0278E660F00DAC02C /* AppDelegate.swift */,
 				912A70F2278E660F00DAC02C /* SceneDelegate.swift */,
-				912A70F4278E660F00DAC02C /* ViewController.swift */,
-				912A70F6278E660F00DAC02C /* Main.storyboard */,
+				912A70F4278E660F00DAC02C /* WKWebViewController.swift */,
+				912A7106278E68E200DAC02C /* WKWebViewController.xib */,
 				912A70F9278E661100DAC02C /* Assets.xcassets */,
 				912A70FB278E661100DAC02C /* LaunchScreen.storyboard */,
 				912A70FE278E661100DAC02C /* Info.plist */,
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 912A7101278E661100DAC02C /* Build configuration list for PBXNativeTarget "WKWebViewApp" */;
 			buildPhases = (
+				8EC568E4E2155A2CACD3CCEF /* [CP] Check Pods Manifest.lock */,
 				912A70E9278E660F00DAC02C /* Sources */,
 				912A70EA278E660F00DAC02C /* Frameworks */,
 				912A70EB278E660F00DAC02C /* Resources */,
+				C139AB9E0DB58A75CC7378F5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,20 +151,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				912A7107278E68E200DAC02C /* WKWebViewController.xib in Resources */,
 				912A70FD278E661100DAC02C /* LaunchScreen.storyboard in Resources */,
 				912A70FA278E661100DAC02C /* Assets.xcassets in Resources */,
-				912A70F8278E660F00DAC02C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EC568E4E2155A2CACD3CCEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WKWebViewApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C139AB9E0DB58A75CC7378F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WKWebViewApp/Pods-WKWebViewApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WKWebViewApp/Pods-WKWebViewApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WKWebViewApp/Pods-WKWebViewApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		912A70E9278E660F00DAC02C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				912A70F5278E660F00DAC02C /* ViewController.swift in Sources */,
+				912A70F5278E660F00DAC02C /* WKWebViewController.swift in Sources */,
 				912A70F1278E660F00DAC02C /* AppDelegate.swift in Sources */,
 				912A70F3278E660F00DAC02C /* SceneDelegate.swift in Sources */,
 			);
@@ -146,14 +215,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		912A70F6278E660F00DAC02C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				912A70F7278E660F00DAC02C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		912A70FB278E661100DAC02C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +344,7 @@
 		};
 		912A7102278E661100DAC02C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21DBAD5AF0521606D6B16046 /* Pods-WKWebViewApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +364,7 @@
 		};
 		912A7103278E661100DAC02C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79D4E86BD24EFB4E8080819D /* Pods-WKWebViewApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
