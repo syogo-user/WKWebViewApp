@@ -11,7 +11,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WKWebViewController" customModule="WKWebViewApp" customModuleProvider="target">
             <connections>
                 <outlet property="progressView" destination="As8-1d-jFD" id="dAB-uE-56z"/>
-                <outlet property="view" destination="iN0-l3-epB" id="b0t-hj-BTG"/>
+                <outlet property="view" destination="iN0-l3-epB" id="sCl-RT-kYZ"/>
                 <outlet property="webView" destination="3AU-Fr-mCN" id="x67-vO-zbS"/>
             </connections>
         </placeholder>
